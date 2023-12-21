@@ -99,7 +99,7 @@ Lokalny RtD:
 .. code-block:: rst
 
    Do pliku w tej samej dokumentacji (pliku) - :doc:`oautorze.rst`
-   Do nagłówka w tym samym dokumencie (pliku) - :ref:`Odnośnik (lokalny RtD, zewnętrzny-inny serwis`
+   Do nagłówka w tym samym dokumencie (pliku) - :ref:`Odnośnik (lokalny RtD, zewnętrzny-inny serwis)`
    Do nagłówka w innym dokumencie (pliku) - :ref:`Odnośnik (lokalny RtD, zewnętrzny-inny serwis) <restructuredtext.rst>`
 
 Wynik:
