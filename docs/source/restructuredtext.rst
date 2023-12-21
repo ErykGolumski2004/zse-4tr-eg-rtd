@@ -219,5 +219,3 @@ Wynik:
 +------------+------------+
 | Wiersz 2   | Wiersz 2   |
 +------------+------------+
-
-.. include:: spistresci.rst
