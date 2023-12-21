@@ -81,13 +81,14 @@ Blokowy:
    .. code-block:: python
 
       Print("Hello, World!");
-      Print("Hello, World 2!")
+      Print("Hello, World 2!");
 
 Wynik:
 
 .. code-block:: python
 
-   Print("Hello, World!")
+   Print("Hello, World!");
+   Print("Hello, World 2!")
 
 
 Odnośnik (lokalny RtD, zewnętrzny-inny serwis)
@@ -103,9 +104,9 @@ Lokalny RtD:
 
 Wynik:
 
-   Do pliku w tej samej dokumentacji (pliku) - :doc:`oautorze.rst`
-   Do nagłówka w tym samym dokumencie (pliku) - :ref:`Odnośnik (lokalny RtD, zewnętrzny-inny serwis`
-   Do nagłówka w innym dokumencie (pliku) - :ref:`Odnośnik (lokalny RtD, zewnętrzny-inny serwis) <restructuredtext.rst>`
+:doc:`oautorze.rst`
+:ref:`Odnośnik (lokalny RtD, zewnętrzny-inny serwis`
+:ref:`Odnośnik (lokalny RtD, zewnętrzny-inny serwis) <restructuredtext.rst>`
 
 Zewnętrzny (inny serwis): 
 
