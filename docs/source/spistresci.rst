@@ -1,10 +1,7 @@
 Spis treści
 =================
-Tutaj znajdziesz nawigację plików w moim repozytorium...
 
-.. toctree::
-  :maxdepth: 4
-  index
-  spistresci
-  restructuredtext
-  oautorze
+1. Strona główna (index.rst)
+2. Składnia elementów dokumentu ReStructuredText. (restructuredtext.rst)
+3. Spis treści (spistresci.rst)
+4. O autorze (oautorze.rst)
