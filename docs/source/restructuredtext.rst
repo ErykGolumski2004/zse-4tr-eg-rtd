@@ -4,50 +4,53 @@ Składnia elementów dokumentu ReStructuredText.
 Nagłówki tekstowe (poziomy 1-4)
 -------------------------------
 
-- Poziom 1:
-   .. code-block:: rst
+Poziom 1:
 
-      Nagłówek Poziomu I
-      =================
-
-   Wynik:
+.. code-block:: rst
 
    Nagłówek Poziomu I
    =================
 
-- Poziom 2:
-  .. code-block:: rst
+Wynik:
 
-      Nagłówek Poziomu II
-      ------------------
+Nagłówek Poziomu I
+=================
 
-   Wynik:
+Poziom 2:
+
+.. code-block:: rst
 
    Nagłówek Poziomu II
    ------------------
 
+Wynik:
 
-- Poziom 3:
-  .. code-block:: rst
+Nagłówek Poziomu II
+------------------
 
-      Nagłówek Poziomu III
-      ^^^^^^^^^^^^^^^^^^^^
+Poziom 3:
 
-   Wynik:
+.. code-block:: rst
 
    Nagłówek Poziomu III
    ^^^^^^^^^^^^^^^^^^^^
 
-- Poziom 4:
-   .. code-block:: rst
+Wynik:
+
+Nagłówek Poziomu III
+^^^^^^^^^^^^^^^^^^^^
+
+Poziom 4:
+
+.. code-block:: rst
    
-      Nagłówek Poziomu IV
-      ******************
-
-   Wynik:
-
    Nagłówek Poziomu IV
    ******************
+
+Wynik:
+
+Nagłówek Poziomu IV
+******************
 
 Akapit tekstowy (treść)
 -----------------------
@@ -103,7 +106,7 @@ Wynik:
 
 .. code-block:: python
 
-Print("Hello, World!")
+   Print("Hello, World!")
 
 
 Odnośnik (lokalny RtD, zewnętrzny-inny serwis)
@@ -113,11 +116,11 @@ Lokalny RtD:
 
 .. code-block:: rst
 
-   :doc:`ścieżka_do_pliku`
+   :doc:`/docs/unnamed.png`
 
 Wynik:
 
-:doc:`ścieżka_do_pliku`
+:doc:`/docs/unnamed.png`
 
 Zewnętrzny (inny serwis): 
 
@@ -128,7 +131,6 @@ Zewnętrzny (inny serwis):
 Wynik:
 
 Przeczytaj więcej na stronie [Google](https://www.google.com).
-
 
 Listy (numerowana, wypunktowana, definicji)
 -------------------------------------------
@@ -156,10 +158,12 @@ Lista Wypunktowana (ex. "*", "+", "-", "•", "‣", lub "⁃"):
 .. code-block:: rst
 
    - Pierwszy element listy wypunktowanej.
+   + Drugi element
 
 Wynik:
 
 - Pierwszy element listy wypunktowanej.
++ Drugi element
 
 Lista Definicji:
 
@@ -186,7 +190,7 @@ Obraz (z alternatywnym tekstem oraz podpisem)
 
 .. code-block:: rst
 
-   .. image:: sciezka/do/obrazka.png
+   .. image:: /docs/unnamed.png
       :width: 300px
       :align: center
       :alt: Alternatywny tekst obrazka
@@ -194,8 +198,11 @@ Obraz (z alternatywnym tekstem oraz podpisem)
 
 Wynik:
 
-![Alternatywny tekst obrazka](sciezka/do/obrazka.png)
-   *Podpis pod obrazkiem*
+   .. image:: /docs/unnamed.png
+      :width: 300px
+      :align: center
+      :alt: Alternatywny tekst obrazka
+      *Podpis pod obrazkiem*
 
 Tabela (jeżeli istnieje)
 ------------------------
