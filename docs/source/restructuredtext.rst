@@ -105,7 +105,7 @@ Lokalny RtD:
 Wynik:
 
 :doc:`oautorze.rst`
-:ref:`Odnośnik (lokalny RtD, zewnętrzny-inny serwis`
+:ref:`Odnośnik (lokalny RtD, zewnętrzny-inny serwis)`
 :ref:`Odnośnik (lokalny RtD, zewnętrzny-inny serwis) <restructuredtext.rst>`
 
 Zewnętrzny (inny serwis): 
