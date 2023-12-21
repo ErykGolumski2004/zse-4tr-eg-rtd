@@ -5,4 +5,5 @@ W tym repozytorium znajdziesz jak opisywać tekst w formacie ".rst", czyli ReStr
 
 .. toctree::
   restructuredtext
+  spistresci
   oautorze
