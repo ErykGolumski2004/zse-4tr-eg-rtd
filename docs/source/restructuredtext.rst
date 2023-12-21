@@ -137,7 +137,7 @@ Wynik:
    a) Item 1a.
    b) Item 1b.
 2. a) Item 2a.
-  b) Item 2b.
+   b) Item 2b.
 
 Lista Wypunktowana (ex. "*", "+", "-", "•", "‣", lub "⁃"):
 
