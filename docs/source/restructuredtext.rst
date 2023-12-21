@@ -96,11 +96,15 @@ Lokalny RtD:
 
 .. code-block:: rst
 
-   :doc:`/docs/unnamed.png`
+   Do pliku w tej samej dokumentacji (pliku) - :doc:`oautorze.rst`
+   Do nagłówka w tym samym dokumencie (pliku) - :ref:`Odnośnik (lokalny RtD, zewnętrzny-inny serwis`
+   Do nagłówka w innym dokumencie (pliku) - :ref:`Odnośnik (lokalny RtD, zewnętrzny-inny serwis) <restructuredtext.rst>`
 
 Wynik:
 
-:doc:`/docs/unnamed.png`
+   Do pliku w tej samej dokumentacji (pliku) - :doc:`oautorze.rst`
+   Do nagłówka w tym samym dokumencie (pliku) - :ref:`Odnośnik (lokalny RtD, zewnętrzny-inny serwis`
+   Do nagłówka w innym dokumencie (pliku) - :ref:`Odnośnik (lokalny RtD, zewnętrzny-inny serwis) <restructuredtext.rst>`
 
 Zewnętrzny (inny serwis): 
 
@@ -110,7 +114,7 @@ Zewnętrzny (inny serwis):
 
 Wynik:
 
-Przeczytaj więcej na stronie [Google](https://www.google.com).
+Przeczytaj więcej na stronie `Google <https://www.google.com>`_.
 
 Listy (numerowana, wypunktowana, definicji)
 -------------------------------------------
@@ -174,15 +178,17 @@ Obraz (z alternatywnym tekstem oraz podpisem)
       :width: 300px
       :align: center
       :alt: Alternatywny tekst obrazka
-      *Podpis pod obrazkiem*
+
+      Podpis pod obrazkiem
 
 Wynik:
 
-   .. image:: /docs/unnamed.png
-      :width: 300px
-      :align: center
-      :alt: Alternatywny tekst obrazka
-      *Podpis pod obrazkiem*
+.. image:: /docs/unnamed.png
+   :width: 300px
+   :align: center
+   :alt: Alternatywny tekst obrazka
+
+   Podpis pod obrazkiem
 
 Tabela (jeżeli istnieje)
 ------------------------
