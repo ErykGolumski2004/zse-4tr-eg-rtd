@@ -80,7 +80,8 @@ Blokowy:
 
    .. code-block:: python
 
-      Print("Hello, World!")
+      Print("Hello, World!");
+      Print("Hello, World 2!")
 
 Wynik:
 
