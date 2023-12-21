@@ -10,48 +10,48 @@ Poziom 1:
 
    Nagłówek Poziomu I
    =================
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Wynik:
 
 Nagłówek Poziomu I
 =================
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Poziom 2:
 
 .. code-block:: rst
 
    Nagłówek Poziomu II
    ------------------
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Wynik:
 
 Nagłówek Poziomu II
 ------------------
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Poziom 3:
 
 .. code-block:: rst
 
    Nagłówek Poziomu III
    ^^^^^^^^^^^^^^^^^^^^
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Wynik:
 
 Nagłówek Poziomu III
 ^^^^^^^^^^^^^^^^^^^^
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Poziom 4:
 
 .. code-block:: rst
    
    Nagłówek Poziomu IV
    ******************
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Wynik:
 
 Nagłówek Poziomu IV
 ******************
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Akapit tekstowy (treść)
 -----------------------
 
@@ -59,12 +59,12 @@ Akapit tekstowy (treść)
 
    To jest zwykły akapit tekstu.
       To jest podakapit głównego tekstu.
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Wynik:
 
 To jest zwykły akapit tekstu.
    To jest podakapit głównego tekstu.
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 
 Akapit informacyjny (Note, Tip)
 -------------------------------
@@ -74,13 +74,13 @@ Akapit informacyjny (Note, Tip)
    .. note:: To jest akapit informacyjny, zawierający dodatkowe informacje.
 
    .. tip:: To jest akapit z poradą lub wskazówką.
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Wynik:
 
 .. note:: To jest akapit informacyjny, zawierający dodatkowe informacje.
 
 .. tip:: To jest akapit z poradą lub wskazówką.
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Fragment kodu (liniowy, blokowy)
 --------------------------------
 
@@ -89,11 +89,11 @@ Liniowy:
 .. code-block:: rst
 
    `fragment kodu`.
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Wynik:
 
 `fragment kodu`.
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Blokowy:
 
 .. code-block:: rst
@@ -101,13 +101,13 @@ Blokowy:
    .. code-block:: python
 
       Print("Hello, World!")
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Wynik:
 
 .. code-block:: python
 
    Print("Hello, World!")
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 
 Odnośnik (lokalny RtD, zewnętrzny-inny serwis)
 ----------------------------------------------
@@ -117,21 +117,21 @@ Lokalny RtD:
 .. code-block:: rst
 
    :doc:`/docs/unnamed.png`
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Wynik:
 
 :doc:`/docs/unnamed.png`
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Zewnętrzny (inny serwis): 
 
 .. code-block:: rst
 
    Przeczytaj więcej na stronie `Google <https://www.google.com>`_.
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Wynik:
 
 Przeczytaj więcej na stronie [Google](https://www.google.com).
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Listy (numerowana, wypunktowana, definicji)
 -------------------------------------------
 
@@ -144,7 +144,7 @@ Lista Numerowana (ex.: “1.”, “1)”, “(1)”, “A.”, “a)”, “(A)
       b) Item 1b.
    2. a) Item 2a.
       b) Item 2b.
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Wynik:
 
 1. Item 1
@@ -152,19 +152,19 @@ Wynik:
    b) Item 1b.
 2. a) Item 2a.
   b) Item 2b.
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Lista Wypunktowana (ex. "*", "+", "-", "•", "‣", lub "⁃"):
 
 .. code-block:: rst
 
    - Pierwszy element listy wypunktowanej.
    + Drugi element
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Wynik:
 
 - Pierwszy element listy wypunktowanej.
 + Drugi element
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Lista Definicji:
 
 .. code-block:: rst
@@ -175,7 +175,7 @@ Lista Definicji:
       Definition 2, paragraph 1.
       Definition 2, paragraph 2.
    - definicja
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Wynik:
 
 term 1
@@ -184,7 +184,7 @@ term 2
    Definition 2, paragraph 1.
    Definition 2, paragraph 2.
   - definicja
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Obraz (z alternatywnym tekstem oraz podpisem)
 ----------------------------------------------
 
@@ -195,7 +195,7 @@ Obraz (z alternatywnym tekstem oraz podpisem)
       :align: center
       :alt: Alternatywny tekst obrazka
       *Podpis pod obrazkiem*
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Wynik:
 
    .. image:: /docs/unnamed.png
@@ -203,7 +203,7 @@ Wynik:
       :align: center
       :alt: Alternatywny tekst obrazka
       *Podpis pod obrazkiem*
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Tabela (jeżeli istnieje)
 ------------------------
 
@@ -216,7 +216,7 @@ Tabela (jeżeli istnieje)
    +------------+------------+
    | Wiersz 2   | Wiersz 2   |
    +------------+------------+
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
+
 Wynik:
 
 +------------+------------+
@@ -226,4 +226,3 @@ Wynik:
 +------------+------------+
 | Wiersz 2   | Wiersz 2   |
 +------------+------------+
-⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐⌐
