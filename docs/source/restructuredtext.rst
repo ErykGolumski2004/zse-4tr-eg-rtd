@@ -11,22 +11,12 @@ Poziom 1:
    Nagłówek Poziomu I
    =================
 
-Wynik:
-
-Nagłówek Poziomu I
-=================
-
 Poziom 2:
 
 .. code-block:: rst
 
    Nagłówek Poziomu II
    ------------------
-
-Wynik:
-
-Nagłówek Poziomu II
-------------------
 
 Poziom 3:
 
@@ -35,22 +25,12 @@ Poziom 3:
    Nagłówek Poziomu III
    ^^^^^^^^^^^^^^^^^^^^
 
-Wynik:
-
-Nagłówek Poziomu III
-^^^^^^^^^^^^^^^^^^^^
-
 Poziom 4:
 
 .. code-block:: rst
    
    Nagłówek Poziomu IV
    ******************
-
-Wynik:
-
-Nagłówek Poziomu IV
-******************
 
 Akapit tekstowy (treść)
 -----------------------
